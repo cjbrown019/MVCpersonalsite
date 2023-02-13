@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MVCpersonalsite.Models;
 using System.Diagnostics;
+using MimeKit; //Added for access to MimeMessage class
+using MailKit.Net.Smtp; //Access to the SmtpClient class
 
 namespace MVCpersonalsite.Controllers
 {
