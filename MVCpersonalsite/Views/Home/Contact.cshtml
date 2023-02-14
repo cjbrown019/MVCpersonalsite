@@ -4,12 +4,11 @@
     ViewData["Title"] = "Contact";
 }
 
-<h1>Contact</h1>
 
-<h4>ContactViewModel</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
+<section class="resume-section">
+    <div class="resume-section-content shadow-lg p-5 bg-light rounded container">
+        <h1>Contact</h1>
         <form asp-action="Contact">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -38,16 +37,19 @@
                 <span asp-validation-for="Message" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Submit" class="submit-btn w-50 form-control btn btn-lg btn-primary text-white" />
             </div>
         </form>
+        <a asp-action="Index">Back to List</a>
     </div>
-</div>
+</section>
+
 
 <div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
 }

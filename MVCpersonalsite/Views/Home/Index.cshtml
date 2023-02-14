@@ -230,50 +230,6 @@
             </table>
         </div>
     </section>
-    <!-- Contact Section -->
-    <section class="resume-section" id="contact">
-        <div class="resume-section-content  shadow-lg p-3 mb-5 bg-light rounded container ">
-            <h2 class="mb-3">Contact</h2>
-            @if (ViewBag.ErrorMessage != null)
-            {
-                <div class="row text-danger">
-                    <p style="font-style: italic">
-                        @Html.Raw(ViewBag.ErrorMessage)
-                    </p>
-                </div>
-            }
-            <form asp-action="Index" class="contact-form ">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="form-group">
-                    <label for="nameInput" class="form-label">Name:</label>
-                    <input asp-for="Name" class="form-control" id="nameInput" placeholder="First Last Name" autocomplete="off" value="">
-                    <span asp-validation-for="Name" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label for="companyInput" class="form-label">Company:</label>
-                    <input asp-for="Company" class="form-control" id="companyInput" placeholder="Company Name" autocomplete="off" value="">
-                    <span asp-validation-for="Company" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label for="emailInput" class="form-label">Email:</label>
-                    <input asp-for="Email" class="form-control" id="emailInput" placeholder="name@example.com" autocomplete="off" value="">
-                    <span asp-validation-for="Email" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label for="subjectInput" class="form-label">Subject:</label>
-                    <input asp-for="Subject" class="form-control" id="subjectInput" placeholder="Subject" autocomplete="off" value="">
-                    <span asp-validation-for="Subject" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label for="messageInput" class="form-label" autocomplete="off">Message:</label>
-                    <textarea asp-for="Message" cols="30" rows="3" class="form-control"></textarea>
-                    <span asp-validation-for="Message" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <input type="submit" class="submit-btn w-50 form-control btn btn-lg btn-primary text-white" value="Submit">
-                </div>
-            </form>
-        </div>
-    </section>
+    
 
 </div>

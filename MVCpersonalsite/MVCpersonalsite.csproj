@@ -279,6 +279,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Views\StronglyTypedData\" />
     <Folder Include="wwwroot\.git\objects\info\" />
     <Folder Include="wwwroot\.git\refs\tags\" />
     <Folder Include="_Archive\.git\objects\info\" />
