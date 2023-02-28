@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\.gitignore" />
     <Content Remove="wwwroot\assets\img\20221002_085057.jpg" />
     <Content Remove="wwwroot\assets\img\Background-img.jpg" />
     <Content Remove="wwwroot\assets\img\Corbin_Brown.pdf" />
@@ -35,7 +34,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\.gitignore" />
     <None Include="wwwroot\assets\img\20221002_085057.jpg" />
     <None Include="wwwroot\assets\img\Background-img.jpg" />
     <None Include="wwwroot\assets\img\Corbin_Brown.pdf" />
