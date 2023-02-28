@@ -11,6 +11,7 @@ namespace MVCpersonalsite.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly IConfiguration _config;
 
+        
         public HomeController(ILogger<HomeController> logger, IConfiguration config)
         {
             _logger = logger;
