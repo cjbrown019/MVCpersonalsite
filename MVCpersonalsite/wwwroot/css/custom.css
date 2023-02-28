@@ -1,0 +1,261 @@
+.sdw-full{
+    box-shadow: 0px 0px 20px rgb(34, 36, 37);
+}
+
+.hover-button :hover{
+    color: darkblue;
+    transition: .25s ease-in;
+}
+
+.card-pic{
+    width: 55.5em;
+    height: auto;
+}
+
+.elevate:hover{
+    transform: translateY(-10px);
+    transition: .25s ease-in-out;
+}
+
+.contact-form{
+    padding: 0px 30px 4px 30px;
+}
+
+.contact-form label{
+    margin-top: 1.5em;
+}
+
+@media screen and (max-width: 372px) {
+    .social-icons .social-icon{
+    margin-right: 1rem;
+    }
+   .social-icons .social-icon:last-child{
+    margin-right: 0;
+   }
+   .social-icons{
+    justify-content: center;
+   }
+   .submit-btn{
+    font-size: 3vw;
+   }
+}
+
+.submit-btn{
+
+    margin: .5em auto;
+    display: block;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+
+
+#project-table{
+    border: solid;
+    border-color: #343a40;
+}
+
+#project-table a{
+    text-decoration: none;
+}
+
+#project-table a{
+    color: white;
+}
+
+
+
+#project-table tr:nth-child(even) a{
+    color: rgba(21, 22, 22, 0.7);
+}
+
+#project-table td:last-child:hover{
+    font-weight: bolder;
+    transition: .25s ease-in;
+}
+
+#project-table tr:nth-child(even){
+    background-color:rgb(255, 255, 255);
+    color: rgba(21, 22, 22,.7);
+}
+
+
+#project-table tr:nth-child(odd){
+    background-color:rgba(34, 36, 37,.7);
+    color: white;
+}
+
+
+#img-container a img{
+    width: 10vw;
+    height: auto;
+
+}
+
+
+#lightgallery a img{
+    width: 5vw;
+    height: auto;
+}
+
+.bg-background{
+    background-image: linear-gradient(to bottom, #1f74ab, rgb(21, 81, 119));
+}
+
+#project-table td{
+    border-style: solid;
+    border-right: #343a40;
+    border-width: 2px;
+}
+
+.links{
+    position: relative;
+}
+
+.classmate-card{
+    overflow: hidden;
+    width: 264px;
+    height: 352px;
+    object-fit: cover;
+}
+
+#Robert{
+    object-position: 50% 0%;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1f74ab;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.overlay strong:last-child a{
+    transform: translate(-50%, 80%);
+}
+
+.overlay strong a{
+    color: rgba(255, 255, 255, 0.596);
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay strong a:last-child{
+    color: rgba(255, 255, 255, 0.596);
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.overlay strong a:hover{
+    color: white;
+    font-size: 105%;
+    transition: .25s ease;
+}
+
+.links:hover .overlay{
+    height: 100%;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#lightgallery a{
+    height: 15vw;
+    width: 15vw;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: -10px 5px 10px grey
+}
+
+#lightgallery a img{
+    height: 101%;
+    width: 101%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 458px) {
+    #lightgallery a{
+        height: 17vw;
+        width: 17vw;
+        margin: 10px;
+        overflow: hidden;
+        box-shadow: -10px 5px 10px grey
+    }
+}
+
+@keyframes imgGrow {
+    from{transform: scale(1)}
+    to{transform: scale(1.2)}
+}
+
+
+#lightgallery a img:hover{
+    animation-name: imgGrow;
+    animation-duration: .25s;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+}
+
+.resume-section-content{
+    overflow: hidden;
+}
+
+#Grad-pic{
+    margin-top: 5px;
+    height: 15vw;
+    width: 15vw;
+    object-fit: cover;
+    object-position: 50% 24%;
+    box-shadow: -10px 5px 10px grey;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+#dungeon{
+    margin-top: 5px;
+    height: 15vw;
+    width: 41vw;
+    overflow: hidden;
+    box-shadow: -10px 5px 10px grey;
+}
+#dungeon img{
+    height: 196%;
+    width: auto;
+}
+@media screen and (max-width: 723px) {
+    #Grad-pic{
+        margin-top: 5px;
+        height: 50vw;
+        width: 50vw;
+        object-fit: cover;
+        object-position: 50% 24%;
+        box-shadow: -10px 5px 10px grey;
+    }
+    #dungeon{
+        margin: auto;
+        margin-top: 5px;
+        margin: 5px 10px 5px 5px;
+        height: 25vw;
+        width: auto;
+        object-fit: cover;
+        object-position: 50% 24%;
+        box-shadow: -10px 5px 10px grey;
+        margin-bottom: 10px;
+    }
+}
