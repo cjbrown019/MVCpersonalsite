@@ -9,7 +9,6 @@
   <ItemGroup>
     <Content Remove="wwwroot\assets\img\20221002_085057.jpg" />
     <Content Remove="wwwroot\assets\img\Background-img.jpg" />
-    <Content Remove="wwwroot\assets\img\Corbin_Brown.pdf" />
     <Content Remove="wwwroot\assets\img\Dan%27sPic.jpg" />
     <Content Remove="wwwroot\assets\img\DungeonSS.JPG" />
     <Content Remove="wwwroot\assets\img\favicon.ico" />
@@ -36,7 +35,6 @@
   <ItemGroup>
     <None Include="wwwroot\assets\img\20221002_085057.jpg" />
     <None Include="wwwroot\assets\img\Background-img.jpg" />
-    <None Include="wwwroot\assets\img\Corbin_Brown.pdf" />
     <None Include="wwwroot\assets\img\Dan'sPic.jpg" />
     <None Include="wwwroot\assets\img\DungeonSS.JPG" />
     <None Include="wwwroot\assets\img\favicon.ico" />

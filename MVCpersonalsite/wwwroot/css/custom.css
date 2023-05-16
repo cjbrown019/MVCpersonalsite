@@ -230,13 +230,14 @@
 #dungeon{
     margin-top: 5px;
     height: 15vw;
-    width: 41vw;
-    overflow: hidden;
+    width: 20vw;
+    overflow:hidden;
+    object-fit:fill;
     box-shadow: -10px 5px 10px grey;
 }
 #dungeon img{
-    height: 196%;
-    width: auto;
+    height:15vw;
+    width: 100%;
 }
 @media screen and (max-width: 723px) {
     #Grad-pic{
